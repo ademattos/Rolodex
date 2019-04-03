@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Cotact {
+class Contact {
     let id: Int64?
     var name: String
     var phone: String
@@ -28,3 +28,4 @@ class Cotact {
         self.address = address
     }
 }
+ 

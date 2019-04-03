@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F6AAC2E20500C33DD90B073 /* Pods_Rolodex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B932FAF32EFFAD6F2E62EEB /* Pods_Rolodex.framework */; };
+		BA6C0C95F2499A0688E4B165 /* Pods_Rolodex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD6947C5C248265AC4569FE /* Pods_Rolodex.framework */; };
+		F608FF952252859C002547CF /* MyContactsDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F608FF942252859C002547CF /* MyContactsDB.swift */; };
 		F688C745224945270053BF92 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F688C744224945270053BF92 /* Contact.swift */; };
 		F6EDE63322493F630060FFB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EDE63222493F630060FFB7 /* AppDelegate.swift */; };
 		F6EDE63522493F640060FFB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EDE63422493F640060FFB7 /* ViewController.swift */; };
@@ -17,9 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0B932FAF32EFFAD6F2E62EEB /* Pods_Rolodex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rolodex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AF843A45F3AFC2702630D39 /* Pods-Rolodex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rolodex.debug.xcconfig"; path = "Target Support Files/Pods-Rolodex/Pods-Rolodex.debug.xcconfig"; sourceTree = "<group>"; };
-		52693AFB4BE23B76636523BC /* Pods-Rolodex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rolodex.release.xcconfig"; path = "Target Support Files/Pods-Rolodex/Pods-Rolodex.release.xcconfig"; sourceTree = "<group>"; };
+		31314580C57F50C90468EF2C /* Pods-Rolodex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rolodex.release.xcconfig"; path = "Target Support Files/Pods-Rolodex/Pods-Rolodex.release.xcconfig"; sourceTree = "<group>"; };
+		BCD6947C5C248265AC4569FE /* Pods_Rolodex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rolodex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDED7C98B56CC5B7BFEC6E2 /* Pods-Rolodex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rolodex.debug.xcconfig"; path = "Target Support Files/Pods-Rolodex/Pods-Rolodex.debug.xcconfig"; sourceTree = "<group>"; };
+		F608FF942252859C002547CF /* MyContactsDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyContactsDB.swift; sourceTree = "<group>"; };
 		F688C744224945270053BF92 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		F6EDE62F22493F630060FFB7 /* Rolodex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rolodex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6EDE63222493F630060FFB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,28 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F6AAC2E20500C33DD90B073 /* Pods_Rolodex.framework in Frameworks */,
+				BA6C0C95F2499A0688E4B165 /* Pods_Rolodex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		146F5CE16F7A1DDF7BCEAFA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCD6947C5C248265AC4569FE /* Pods_Rolodex.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		51578A2735FC800E0283AC4C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3AF843A45F3AFC2702630D39 /* Pods-Rolodex.debug.xcconfig */,
-				52693AFB4BE23B76636523BC /* Pods-Rolodex.release.xcconfig */,
+				BCDED7C98B56CC5B7BFEC6E2 /* Pods-Rolodex.debug.xcconfig */,
+				31314580C57F50C90468EF2C /* Pods-Rolodex.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		C2CFFF445EC33F59FC94AF8C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0B932FAF32EFFAD6F2E62EEB /* Pods_Rolodex.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F6EDE62622493F630060FFB7 = {
@@ -65,7 +67,7 @@
 				F6EDE63122493F630060FFB7 /* Rolodex */,
 				F6EDE63022493F630060FFB7 /* Products */,
 				51578A2735FC800E0283AC4C /* Pods */,
-				C2CFFF445EC33F59FC94AF8C /* Frameworks */,
+				146F5CE16F7A1DDF7BCEAFA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,9 +85,10 @@
 				F6EDE63222493F630060FFB7 /* AppDelegate.swift */,
 				F6EDE63422493F640060FFB7 /* ViewController.swift */,
 				F688C744224945270053BF92 /* Contact.swift */,
+				F608FF942252859C002547CF /* MyContactsDB.swift */,
 				F6EDE63622493F640060FFB7 /* Main.storyboard */,
-				F6EDE63922493F640060FFB7 /* Assets.xcassets */,
 				F6EDE63B22493F640060FFB7 /* LaunchScreen.storyboard */,
+				F6EDE63922493F640060FFB7 /* Assets.xcassets */,
 				F6EDE63E22493F640060FFB7 /* Info.plist */,
 			);
 			path = Rolodex;
@@ -98,11 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6EDE64122493F640060FFB7 /* Build configuration list for PBXNativeTarget "Rolodex" */;
 			buildPhases = (
-				A33214E349BAEE237DFEBFB5 /* [CP] Check Pods Manifest.lock */,
+				BBBCC19A52F26AE2F38852AC /* [CP] Check Pods Manifest.lock */,
 				F6EDE62B22493F630060FFB7 /* Sources */,
 				F6EDE62C22493F630060FFB7 /* Frameworks */,
 				F6EDE62D22493F630060FFB7 /* Resources */,
-				DC4C157EC213AC5373F80967 /* [CP] Embed Pods Frameworks */,
+				CC357D427EE950C3D1244D5E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,7 +164,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A33214E349BAEE237DFEBFB5 /* [CP] Check Pods Manifest.lock */ = {
+		BBBCC19A52F26AE2F38852AC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -179,7 +182,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DC4C157EC213AC5373F80967 /* [CP] Embed Pods Frameworks */ = {
+		CC357D427EE950C3D1244D5E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F608FF952252859C002547CF /* MyContactsDB.swift in Sources */,
 				F688C745224945270053BF92 /* Contact.swift in Sources */,
 				F6EDE63522493F640060FFB7 /* ViewController.swift in Sources */,
 				F6EDE63322493F630060FFB7 /* AppDelegate.swift in Sources */,
@@ -341,7 +345,7 @@
 		};
 		F6EDE64222493F640060FFB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AF843A45F3AFC2702630D39 /* Pods-Rolodex.debug.xcconfig */;
+			baseConfigurationReference = BCDED7C98B56CC5B7BFEC6E2 /* Pods-Rolodex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -356,7 +360,7 @@
 		};
 		F6EDE64322493F640060FFB7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52693AFB4BE23B76636523BC /* Pods-Rolodex.release.xcconfig */;
+			baseConfigurationReference = 31314580C57F50C90468EF2C /* Pods-Rolodex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
